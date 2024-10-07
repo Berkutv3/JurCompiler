@@ -1,0 +1,64 @@
+# Binarios y objetos
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.out
+*.a
+*.lib
+*.lo
+*.slo
+
+# Archivos generados por el compilador
+*.gch
+*.pch
+*.stackdump
+*.d
+
+# Directorios de compilación
+/build/
+/bin/
+/dist/
+/Debug/
+/Release/
+/out/
+/test/
+
+# Archivos de registro
+*.log
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.cbp
+*.pro.user
+*.codelite.*
+
+# Archivos temporales y de respaldo
+*~
+*.swp
+*.bak
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Archivos de pruebas unitarias
+/test-output/
+
+# Miscelaneos
+*.docx
+*.xlsx
+*.md
